@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "New AnyWall Swift/PostViewController.swift"
+            timestampString = "462174652.699608"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "New_AnyWall_Swift.PostViewController.maxCharacterCount.getter : Swift.ImplicitlyUnwrappedOptional&lt;Swift.Int&gt;"
+                  moduleName = "New AnyWall Swift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Jerry/Desktop/iOS%20apps/New%20AnyWall%20Swift/New%20AnyWall%20Swift/PostViewController.swift"
+                  timestampString = "462169120.370822"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "New_AnyWall_Swift.PostViewController.maxCharacterCount.setter : Swift.ImplicitlyUnwrappedOptional&lt;Swift.Int&gt;"
+                  moduleName = "New AnyWall Swift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Jerry/Desktop/iOS%20apps/New%20AnyWall%20Swift/New%20AnyWall%20Swift/PostViewController.swift"
+                  timestampString = "462169120.402332"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "27">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "New_AnyWall_Swift.PostViewController.maxCharacterCount.materializeForSet : Swift.ImplicitlyUnwrappedOptional&lt;Swift.Int&gt;"
+                  moduleName = "New AnyWall Swift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Jerry/Desktop/iOS%20apps/New%20AnyWall%20Swift/New%20AnyWall%20Swift/PostViewController.swift"
+                  timestampString = "462169120.402821"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "New_AnyWall_Swift.PostViewController.init (New_AnyWall_Swift.PostViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;ObjectiveC.NSBundle&gt;) -&gt; New_AnyWall_Swift.PostViewController"
+                  moduleName = "New AnyWall Swift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Jerry/Desktop/iOS%20apps/New%20AnyWall%20Swift/New%20AnyWall%20Swift/PostViewController.swift"
+                  timestampString = "462169120.403104"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "61">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "New_AnyWall_Swift.PostViewController.init (New_AnyWall_Swift.PostViewController.Type)() -&gt; New_AnyWall_Swift.PostViewController"
+                  moduleName = "New AnyWall Swift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Jerry/Desktop/iOS%20apps/New%20AnyWall%20Swift/New%20AnyWall%20Swift/PostViewController.swift"
+                  timestampString = "462169120.403409"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "31">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "New_AnyWall_Swift.PostViewController.init (New_AnyWall_Swift.PostViewController.Type)(coder : ObjectiveC.NSCoder) -&gt; New_AnyWall_Swift.PostViewController"
+                  moduleName = "New AnyWall Swift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Jerry/Desktop/iOS%20apps/New%20AnyWall%20Swift/New%20AnyWall%20Swift/PostViewController.swift"
+                  timestampString = "462169120.403607"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "35">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "New AnyWall Swift/PostViewController.swift"
+            timestampString = "462174652.699608"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "New_AnyWall_Swift.PostViewController.characterCountLabel.getter : Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.UILabel&gt;"
+                  moduleName = "New AnyWall Swift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Jerry/Desktop/iOS%20apps/New%20AnyWall%20Swift/New%20AnyWall%20Swift/PostViewController.swift"
+                  timestampString = "462171326.204132"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "New_AnyWall_Swift.PostViewController.characterCountLabel.setter : Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.UILabel&gt;"
+                  moduleName = "New AnyWall Swift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Jerry/Desktop/iOS%20apps/New%20AnyWall%20Swift/New%20AnyWall%20Swift/PostViewController.swift"
+                  timestampString = "462171326.204383"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "New_AnyWall_Swift.PostViewController.characterCountLabel.materializeForSet : Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.UILabel&gt;"
+                  moduleName = "New AnyWall Swift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Jerry/Desktop/iOS%20apps/New%20AnyWall%20Swift/New%20AnyWall%20Swift/PostViewController.swift"
+                  timestampString = "462171326.204553"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "New_AnyWall_Swift.PostViewController.init (New_AnyWall_Swift.PostViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;ObjectiveC.NSBundle&gt;) -&gt; New_AnyWall_Swift.PostViewController"
+                  moduleName = "New AnyWall Swift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Jerry/Desktop/iOS%20apps/New%20AnyWall%20Swift/New%20AnyWall%20Swift/PostViewController.swift"
+                  timestampString = "462171326.204713"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "86">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "New_AnyWall_Swift.PostViewController.init (New_AnyWall_Swift.PostViewController.Type)() -&gt; New_AnyWall_Swift.PostViewController"
+                  moduleName = "New AnyWall Swift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Jerry/Desktop/iOS%20apps/New%20AnyWall%20Swift/New%20AnyWall%20Swift/PostViewController.swift"
+                  timestampString = "462171326.204866"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "61">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "New_AnyWall_Swift.PostViewController.init (New_AnyWall_Swift.PostViewController.Type)(coder : ObjectiveC.NSCoder) -&gt; New_AnyWall_Swift.PostViewController"
+                  moduleName = "New AnyWall Swift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Jerry/Desktop/iOS%20apps/New%20AnyWall%20Swift/New%20AnyWall%20Swift/PostViewController.swift"
+                  timestampString = "462171326.205016"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "65">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "New AnyWall Swift/PostViewController.swift"
+            timestampString = "462684969.368707"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "postPost(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "New AnyWall Swift/WallViewController.swift"
+            timestampString = "463362677.472311"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "WallViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "New AnyWall Swift/PostViewController.swift"
+            timestampString = "462732168.456685"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "New_AnyWall_Swift.PostViewController.testString.getter : Swift.Optional&lt;Swift.String&gt;"
+                  moduleName = "New AnyWall Swift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Jerry/Desktop/iOS%20apps/New%20AnyWall%20Swift/New%20AnyWall%20Swift/PostViewController.swift"
+                  timestampString = "462732168.723149"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "New_AnyWall_Swift.PostViewController.testString.setter : Swift.Optional&lt;Swift.String&gt;"
+                  moduleName = "New AnyWall Swift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Jerry/Desktop/iOS%20apps/New%20AnyWall%20Swift/New%20AnyWall%20Swift/PostViewController.swift"
+                  timestampString = "462732168.723521"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "43">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "New_AnyWall_Swift.PostViewController.testString.materializeForSet : Swift.Optional&lt;Swift.String&gt;"
+                  moduleName = "New AnyWall Swift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Jerry/Desktop/iOS%20apps/New%20AnyWall%20Swift/New%20AnyWall%20Swift/PostViewController.swift"
+                  timestampString = "462732168.723759"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "New_AnyWall_Swift.PostViewController.init (New_AnyWall_Swift.PostViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;ObjectiveC.NSBundle&gt;) -&gt; New_AnyWall_Swift.PostViewController"
+                  moduleName = "New AnyWall Swift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Jerry/Desktop/iOS%20apps/New%20AnyWall%20Swift/New%20AnyWall%20Swift/PostViewController.swift"
+                  timestampString = "462732168.729561"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "89">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "New_AnyWall_Swift.PostViewController.init (New_AnyWall_Swift.PostViewController.Type)() -&gt; New_AnyWall_Swift.PostViewController"
+                  moduleName = "New AnyWall Swift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Jerry/Desktop/iOS%20apps/New%20AnyWall%20Swift/New%20AnyWall%20Swift/PostViewController.swift"
+                  timestampString = "462732168.729992"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "55">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "New_AnyWall_Swift.PostViewController.init (New_AnyWall_Swift.PostViewController.Type)(coder : ObjectiveC.NSCoder) -&gt; New_AnyWall_Swift.PostViewController"
+                  moduleName = "New AnyWall Swift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Jerry/Desktop/iOS%20apps/New%20AnyWall%20Swift/New%20AnyWall%20Swift/PostViewController.swift"
+                  timestampString = "462732168.730268"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "59">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "New AnyWall Swift/LogInViewController.swift"
+            timestampString = "462734691.132531"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "LogInViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "New AnyWall Swift/AppDelegate.swift"
+            timestampString = "463198047.245792"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "application(_:didFinishLaunchingWithOptions:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "New AnyWall Swift/Post.swift"
+            timestampString = "463357812.291891"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "init(object:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
