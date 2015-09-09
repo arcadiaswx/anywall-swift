@@ -35,6 +35,7 @@
 		C4C0F01C1B8BE2BA003308C5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4C0F01B1B8BE2BA003308C5 /* SystemConfiguration.framework */; };
 		C4C0F01E1B8BE2C0003308C5 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C4C0F01D1B8BE2C0003308C5 /* libz.dylib */; };
 		C4C0F0201B8BE2CA003308C5 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C4C0F01F1B8BE2CA003308C5 /* libsqlite3.dylib */; };
+		C4FDD8221B9F8BC000915574 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FDD8211B9F8BC000915574 /* ActivityView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +81,7 @@
 		C4C0F01B1B8BE2BA003308C5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		C4C0F01D1B8BE2C0003308C5 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		C4C0F01F1B8BE2CA003308C5 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		C4FDD8211B9F8BC000915574 /* ActivityView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				C4C0EFE91B8BE1D9003308C5 /* AppDelegate.swift */,
+				C4FDD8211B9F8BC000915574 /* ActivityView.swift */,
 				C4C0EFEB1B8BE1D9003308C5 /* ViewController.swift */,
 				C4C0EFED1B8BE1D9003308C5 /* Main.storyboard */,
 				C4ADA14A1B9C0BAA005EFC93 /* Post.swift */,
@@ -297,6 +300,7 @@
 				C48B89AB1B94C621006B33B9 /* AWTableViewController.swift in Sources */,
 				C43DCAED1B93FE7300DEC928 /* SignUpViewController.swift in Sources */,
 				C49577B31B8E30BC00B0B926 /* WallViewController.swift in Sources */,
+				C4FDD8221B9F8BC000915574 /* ActivityView.swift in Sources */,
 				C43DCAE91B93F69C00DEC928 /* LogInViewController.swift in Sources */,
 				C4C0EFEC1B8BE1D9003308C5 /* ViewController.swift in Sources */,
 				C4C0EFEA1B8BE1D9003308C5 /* AppDelegate.swift in Sources */,

@@ -10,9 +10,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        Parse.setApplicationId("?",
-            clientKey: "?")
-        
+        Parse.setApplicationId("uA561AJhemBLj8QcFQzmuliSgHBxbaQvYysWAtEO",
+            clientKey: "LJ5cEZnqqpGhV2Y5gTFx2d7cjlbh2IcZualnrW1i")
         
         window = UIWindow(frame: UIScreen.mainScreen().bounds)
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
