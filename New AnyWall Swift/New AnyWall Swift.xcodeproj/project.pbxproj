@@ -13,6 +13,7 @@
 		C43DCAED1B93FE7300DEC928 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43DCAEC1B93FE7300DEC928 /* SignUpViewController.swift */; };
 		C43DCAEF1B94002C00DEC928 /* DebuggingNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43DCAEE1B94002C00DEC928 /* DebuggingNavigationController.swift */; };
 		C46EDFFE1B95000A006C9CCA /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C46EDFFD1B95000A006C9CCA /* ParseUI.framework */; };
+		C48A57711BA1DD6800B0C873 /* ActivityView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48A57701BA1DD6800B0C873 /* ActivityView2.swift */; };
 		C48B89A91B94B081006B33B9 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48B89A81B94B081006B33B9 /* SettingsViewController.swift */; };
 		C48B89AB1B94C621006B33B9 /* AWTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48B89AA1B94C621006B33B9 /* AWTableViewController.swift */; };
 		C49577B31B8E30BC00B0B926 /* WallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49577B21B8E30BC00B0B926 /* WallViewController.swift */; };
@@ -55,6 +56,7 @@
 		C43DCAEC1B93FE7300DEC928 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		C43DCAEE1B94002C00DEC928 /* DebuggingNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DebuggingNavigationController.swift; sourceTree = "<group>"; };
 		C46EDFFD1B95000A006C9CCA /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		C48A57701BA1DD6800B0C873 /* ActivityView2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityView2.swift; sourceTree = "<group>"; };
 		C48B89A81B94B081006B33B9 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		C48B89AA1B94C621006B33B9 /* AWTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AWTableViewController.swift; sourceTree = "<group>"; };
 		C49577B21B8E30BC00B0B926 /* WallViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WallViewController.swift; sourceTree = "<group>"; };
@@ -153,6 +155,7 @@
 				C4FDD8211B9F8BC000915574 /* ActivityView.swift */,
 				C4C0EFEB1B8BE1D9003308C5 /* ViewController.swift */,
 				C4C0EFED1B8BE1D9003308C5 /* Main.storyboard */,
+				C48A57701BA1DD6800B0C873 /* ActivityView2.swift */,
 				C4ADA14A1B9C0BAA005EFC93 /* Post.swift */,
 				C48B89A81B94B081006B33B9 /* SettingsViewController.swift */,
 				C43DCAEC1B93FE7300DEC928 /* SignUpViewController.swift */,
@@ -297,6 +300,7 @@
 			files = (
 				C404E6D51B8C1A4000255AB8 /* PostViewController.swift in Sources */,
 				C4ADA14B1B9C0BAA005EFC93 /* Post.swift in Sources */,
+				C48A57711BA1DD6800B0C873 /* ActivityView2.swift in Sources */,
 				C48B89AB1B94C621006B33B9 /* AWTableViewController.swift in Sources */,
 				C43DCAED1B93FE7300DEC928 /* SignUpViewController.swift in Sources */,
 				C49577B31B8E30BC00B0B926 /* WallViewController.swift in Sources */,

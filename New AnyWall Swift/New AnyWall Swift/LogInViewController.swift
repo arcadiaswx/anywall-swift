@@ -1,17 +1,9 @@
-//
-//  LogInViewController.swift
-//  New AnyWall Swift
-//
-//  Created by Jerry Herrera on 8/30/15.
-//  Copyright (c) 2015 Jerry Herrera. All rights reserved.
-//
 
 import UIKit
 import Parse
 
-class LogInViewController: UIViewController, UITextFieldDelegate, UIAlertViewDelegate {
-    //skeleton implementation
-    
+class LogInViewController: UIViewController, UITextFieldDelegate, UIAlertViewDelegate, SignUpVCDelegate {
+
     @IBOutlet var activityView: ActivityView!
     @IBOutlet var usernameField: UITextField!
     @IBOutlet var passwordField: UITextField!
@@ -41,6 +33,10 @@ class LogInViewController: UIViewController, UITextFieldDelegate, UIAlertViewDel
             self.activityView.hidden = !newValue
             newValue ? self.activityView.activityIndicator.startAnimating() : self.activityView.activityIndicator.stopAnimating()
         }
+    }
+    
+    func userSignedUp() {
+        self.loggingIn()
     }
     
     func textFieldShouldReturn(textField: UITextField) -> Bool {
@@ -121,6 +117,15 @@ class LogInViewController: UIViewController, UITextFieldDelegate, UIAlertViewDel
     @IBAction func logIn(sender: AnyObject) {
         self.dismissKeyboard()
         self.processEntries()
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if let identifier = segue.identifier {
+            if identifier == "toSignUp" {
+                let signUpVC = segue.destinationViewController as! SignUpViewController
+                signUpVC.delegate = self
+            }
+        }
     }
     
     func loggingIn() {
