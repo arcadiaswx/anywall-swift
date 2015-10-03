@@ -7,8 +7,8 @@ import MapKit
 class Post: NSObject, MKAnnotation
 {
     var coordinate: CLLocationCoordinate2D
-    var title: String
-    var subtitle: String!
+    var title: String?
+    var subtitle: String?
     var object: PFObject!
     var user: PFUser!
     var pinColor: MKPinAnnotationColor!
@@ -17,8 +17,8 @@ class Post: NSObject, MKAnnotation
     init(object: PFObject) {
         let geoPoint = object[Constants.AWParsePostLocationKey] as! PFGeoPoint
         self.coordinate = CLLocationCoordinate2D(latitude: geoPoint.latitude, longitude: geoPoint.longitude)
-        self.title = object[Constants.AWParsePostTextKey] as! String
-        self.subtitle = (object[Constants.AWParsePostUserKey] as! PFUser)[Constants.AWParsePostUsernameKey] as! String
+        self.title = object[Constants.AWParsePostTextKey] as? String
+        self.subtitle = (object[Constants.AWParsePostUserKey] as! PFUser)[Constants.AWParsePostUsernameKey] as? String
         self.object = object
         self.user = object[Constants.AWParsePostUserKey] as! PFUser
     }
@@ -47,8 +47,8 @@ class Post: NSObject, MKAnnotation
             self.subtitle = nil
             self.pinColor = MKPinAnnotationColor.Red
         } else {
-            self.title = self.object[Constants.AWParsePostTextKey] as! String
-            self.subtitle = (self.object[Constants.AWParsePostUserKey] as! PFUser)[Constants.AWParsePostUsernameKey] as! String
+            self.title = self.object[Constants.AWParsePostTextKey] as? String
+            self.subtitle = (self.object[Constants.AWParsePostUserKey] as! PFUser)[Constants.AWParsePostUsernameKey] as? String
             self.pinColor = MKPinAnnotationColor.Green
         }
     }

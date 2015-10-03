@@ -1,10 +1,3 @@
-//
-//  AWTableViewController.swift
-//  New AnyWall Swift
-//
-//  Created by Jerry Herrera on 8/31/15.
-//  Copyright (c) 2015 Jerry Herrera. All rights reserved.
-//
 
 import UIKit
 import Parse
@@ -16,29 +9,55 @@ protocol WallPostsTableViewControllerDataSource {
 
 class AWTableViewController: PFQueryTableViewController {
     var noDataButton: UIButton!
+    var dataSource: WallPostsTableViewControllerDataSource?
     
     override func viewDidLoad() {
-        println("table view loaded")
+        print("table view loaded")
     
-        //type of object to fetch
-        self.parseClassName = Constants.AWParsePostsClassName
-        //feild to display?
-        self.textKey = Constants.AWParsePostTextKey
-        self.paginationEnabled = true
-        self.objectsPerPage = Constants.AWWallPostsSearchDefaultLimitUInt
-        //set notification observers
+        parseClassName = Constants.AWParsePostsClassName
+        textKey = Constants.AWParsePostTextKey
+        //paginationEnabled = true
+        paginationEnabled = false
+        objectsPerPage = Constants.AWWallPostsSearchDefaultLimitUInt
+        pullToRefreshEnabled = true
         
         self.tableView.separatorColor = self.view.backgroundColor
         self.refreshControl?.tintColor = UIColor(red: 118.0/255.0, green: 117.0/255.0, blue: 117/225, alpha: 0.5)
         //must add the button
     }
     
-    
-    override func viewDidLayoutSubviews() {
-        println("lets see if this prints before error")
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        self.loadObjects()
+    }
+
+    override func queryForTable() -> PFQuery {
+        let query = PFQuery(className: parseClassName!)
+        if objects?.count == 0 { query.cachePolicy = PFCachePolicy.CacheThenNetwork }
+        let currentLocation = dataSource!.currentLocationForTableViewController()
+        if currentLocation == nil {
+            print("didnt get location for table view query")
+            return query
+        } else {
+            print("Did get location")
+        }
+        let filterDistance = Constants.AWDefaultFilterDistance
+        let geoPoint = PFGeoPoint(latitude: currentLocation!.coordinate.latitude, longitude: currentLocation!.coordinate.longitude)
+        query.whereKey(Constants.AWParsePostLocationKey, nearGeoPoint: geoPoint, withinKilometers: filterDistance)
+        query.includeKey(Constants.AWParsePostUserKey)
+        return query
     }
     
-    deinit {
-        println("table view deinited")
+    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath, object: PFObject?) -> PFTableViewCell? {
+        let reuseIdentifier = "post_cell"
+        var cell = tableView.dequeueReusableCellWithIdentifier(reuseIdentifier) as? AnyWallTableViewCell
+        if cell == nil {
+            cell = UITableViewCell(style: .Subtitle, reuseIdentifier: reuseIdentifier) as? AnyWallTableViewCell
+            if cell == nil {
+                print("cell cannot be converted from uitableviewcell to anywalltableviewcell")
+            }
+        }
+        cell?.updateFromPost(object!)
+        return cell
     }
 }

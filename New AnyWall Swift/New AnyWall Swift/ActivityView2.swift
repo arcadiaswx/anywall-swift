@@ -11,7 +11,6 @@ import UIKit
 class ActivityView2: UIView {
 
     @IBOutlet var label: UILabel!
-    
     @IBOutlet var activityViewIndicator: UIActivityIndicatorView!
     
     func setUpView() {
@@ -19,9 +18,4 @@ class ActivityView2: UIView {
         self.label.textColor = UIColor.whiteColor()
         self.label.backgroundColor = UIColor.clearColor()
     }
-    
-    deinit {
-        println("activity view fucked off")
-    }
-    
 }

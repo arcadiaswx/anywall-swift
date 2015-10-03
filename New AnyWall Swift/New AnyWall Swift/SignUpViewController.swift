@@ -15,13 +15,9 @@ protocol SignUpVCDelegate {
 
 class SignUpViewController: UIViewController, UITextFieldDelegate, UIAlertViewDelegate {
     @IBOutlet var usernameField: UITextField!
-    
     @IBOutlet var passwordField: UITextField!
-    
     @IBOutlet var passwordAgainField: UITextField!
-    
     @IBOutlet var createAccountViewButton: UIView!
-    
     @IBOutlet var activityView: ActivityView2!
     
     var delegate: SignUpVCDelegate!
@@ -34,7 +30,7 @@ class SignUpViewController: UIViewController, UITextFieldDelegate, UIAlertViewDe
     }
     
     override func viewDidLoad() {
-        println("sign up loaded")
+        print("sign up loaded")
         
         self.usernameField.delegate = self
         self.passwordField.delegate = self
@@ -81,22 +77,22 @@ class SignUpViewController: UIViewController, UITextFieldDelegate, UIAlertViewDe
         
         var textError = false
         
-        if count(username) == 0 || count(password) == 0 || count(passwordAgain) == 0 {
+        if username?.length == 0 || password?.length == 0 || passwordAgain?.length == 0 {
             textError = true
             
-            if count(passwordAgain) == 0 {
+            if passwordAgain?.length == 0 {
                 self.passwordAgainField.becomeFirstResponder()
             }
-            if count(password) == 0 {
+            if password?.length == 0 {
                 self.passwordField.becomeFirstResponder()
             }
-            if count(username) == 0 {
+            if username?.length == 0 {
                 self.usernameField.becomeFirstResponder()
                 errorText += usernameBlankText
             }
             
-            if count(password) == 0 || count(passwordAgain) == 0 {
-                if count(username) == 0 {
+            if password?.length == 0 || passwordAgain?.length == 0 {
+                if username?.length == 0 {
                     errorText += joinText
                 }
                 errorText += passwordBlankText
@@ -141,13 +137,13 @@ class SignUpViewController: UIViewController, UITextFieldDelegate, UIAlertViewDe
     }
     
     func createAccountPushed() {
-        println("pushed create account")
+        print("pushed create account")
         self.dismissKeyboard()
         self.processEntries()
     }
     
     func dismissKeyboard() {
-        println("dismisses keyboard")
+        print("dismisses keyboard")
         self.view.endEditing(true)
     }
     
@@ -157,6 +153,12 @@ class SignUpViewController: UIViewController, UITextFieldDelegate, UIAlertViewDe
     }
     
     deinit {
-        println("sign up deinited")
+        print("sign up deinited")
+    }
+}
+
+extension String {
+    var length: Int {
+        return NSString(string: self).length
     }
 }

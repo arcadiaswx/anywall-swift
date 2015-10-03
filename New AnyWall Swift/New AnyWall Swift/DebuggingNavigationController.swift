@@ -11,11 +11,11 @@ import UIKit
 class DebuggingNavigationController: UINavigationController {
 
     override func viewDidLoad() {
-        println("Post's Navigation Controller loaded")
+        print("Post's Navigation Controller loaded")
     }
     
     deinit {
-        println("Post's Navigation Controller Deinited")
+        print("Post's Navigation Controller Deinited")
     }
 
 }

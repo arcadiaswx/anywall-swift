@@ -238,13 +238,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "New AnyWall Swift/WallViewController.swift"
-            timestampString = "463362677.472311"
+            timestampString = "465279509.673556"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "48"
-            endingLineNumber = "48"
-            landmarkName = "WallViewController"
-            landmarkType = "3">
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -359,14 +359,24 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "New AnyWall Swift/AppDelegate.swift"
-            timestampString = "463441259.543581"
+            filePath = "New AnyWall Swift/Post.swift"
+            timestampString = "463357812.291891"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "21"
-            endingLineNumber = "21"
-            landmarkName = "application(_:didFinishLaunchingWithOptions:)"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "init(object:)"
             landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            scope = "0"
+            stopOnStyle = "0">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -375,13 +385,29 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "New AnyWall Swift/Post.swift"
-            timestampString = "463357812.291891"
+            filePath = "New AnyWall Swift/SignUpViewController.swift"
+            timestampString = "465279509.673556"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "22"
-            endingLineNumber = "22"
-            landmarkName = "init(object:)"
+            startingLineNumber = "162"
+            endingLineNumber = "162"
+            landmarkName = "String"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "New AnyWall Swift/PostViewController.swift"
+            timestampString = "464806715.533378"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "postPost(_:)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

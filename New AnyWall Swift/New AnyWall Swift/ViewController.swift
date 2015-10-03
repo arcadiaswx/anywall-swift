@@ -11,9 +11,8 @@ import Parse
 
 class ViewController: UIViewController {
     @IBAction func presentPostModally(sender: AnyObject) {
-            if let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewControllerWithIdentifier("navCont") as? UIViewController {
-                self.presentViewController(vc, animated: true, completion: nil)
-            }
+            let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewControllerWithIdentifier("navCont")
+            self.presentViewController(vc, animated: true, completion: nil)
     }
 
     override func viewDidLoad() {
@@ -23,7 +22,7 @@ class ViewController: UIViewController {
         let testObject = PFObject(className: "TestObject")
         testObject["foo"] = "bar"
         testObject.saveInBackgroundWithBlock { (success: Bool, error: NSError?) -> Void in
-            println("Object has been saved.")
+            print("Object has been saved.")
         }
     }
 

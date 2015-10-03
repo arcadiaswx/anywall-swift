@@ -16,6 +16,7 @@
 		C48A57711BA1DD6800B0C873 /* ActivityView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48A57701BA1DD6800B0C873 /* ActivityView2.swift */; };
 		C48B89A91B94B081006B33B9 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48B89A81B94B081006B33B9 /* SettingsViewController.swift */; };
 		C48B89AB1B94C621006B33B9 /* AWTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48B89AA1B94C621006B33B9 /* AWTableViewController.swift */; };
+		C4914D8C1BBF473B0033363F /* AnyWallTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4914D8B1BBF473B0033363F /* AnyWallTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
 		C49577B31B8E30BC00B0B926 /* WallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49577B21B8E30BC00B0B926 /* WallViewController.swift */; };
 		C4ADA14B1B9C0BAA005EFC93 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4ADA14A1B9C0BAA005EFC93 /* Post.swift */; };
 		C4C0EFEA1B8BE1D9003308C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C0EFE91B8BE1D9003308C5 /* AppDelegate.swift */; };
@@ -59,6 +60,7 @@
 		C48A57701BA1DD6800B0C873 /* ActivityView2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityView2.swift; sourceTree = "<group>"; };
 		C48B89A81B94B081006B33B9 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		C48B89AA1B94C621006B33B9 /* AWTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AWTableViewController.swift; sourceTree = "<group>"; };
+		C4914D8B1BBF473B0033363F /* AnyWallTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AnyWallTableViewCell.swift; path = ../AnyWallTableViewCell.swift; sourceTree = "<group>"; };
 		C49577B21B8E30BC00B0B926 /* WallViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WallViewController.swift; sourceTree = "<group>"; };
 		C4ADA14A1B9C0BAA005EFC93 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		C4C0EFE41B8BE1D9003308C5 /* New AnyWall Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "New AnyWall Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -151,20 +153,21 @@
 		C4C0EFE61B8BE1D9003308C5 /* New AnyWall Swift */ = {
 			isa = PBXGroup;
 			children = (
-				C4C0EFE91B8BE1D9003308C5 /* AppDelegate.swift */,
-				C4FDD8211B9F8BC000915574 /* ActivityView.swift */,
-				C4C0EFEB1B8BE1D9003308C5 /* ViewController.swift */,
 				C4C0EFED1B8BE1D9003308C5 /* Main.storyboard */,
-				C48A57701BA1DD6800B0C873 /* ActivityView2.swift */,
-				C4ADA14A1B9C0BAA005EFC93 /* Post.swift */,
-				C48B89A81B94B081006B33B9 /* SettingsViewController.swift */,
-				C43DCAEC1B93FE7300DEC928 /* SignUpViewController.swift */,
-				C43DCAEE1B94002C00DEC928 /* DebuggingNavigationController.swift */,
+				C4C0EFE91B8BE1D9003308C5 /* AppDelegate.swift */,
 				C43DCAE81B93F69C00DEC928 /* LogInViewController.swift */,
-				C48B89AA1B94C621006B33B9 /* AWTableViewController.swift */,
+				C4FDD8211B9F8BC000915574 /* ActivityView.swift */,
+				C43DCAEC1B93FE7300DEC928 /* SignUpViewController.swift */,
+				C48A57701BA1DD6800B0C873 /* ActivityView2.swift */,
 				C49577B21B8E30BC00B0B926 /* WallViewController.swift */,
-				C404E6D61B8C34F700255AB8 /* Constants.swift */,
+				C48B89AA1B94C621006B33B9 /* AWTableViewController.swift */,
+				C4914D8B1BBF473B0033363F /* AnyWallTableViewCell.swift */,
+				C48B89A81B94B081006B33B9 /* SettingsViewController.swift */,
 				C404E6D41B8C1A4000255AB8 /* PostViewController.swift */,
+				C4ADA14A1B9C0BAA005EFC93 /* Post.swift */,
+				C4C0EFEB1B8BE1D9003308C5 /* ViewController.swift */,
+				C43DCAEE1B94002C00DEC928 /* DebuggingNavigationController.swift */,
+				C404E6D61B8C34F700255AB8 /* Constants.swift */,
 				C4C0EFF01B8BE1D9003308C5 /* Images.xcassets */,
 				C4C0EFF21B8BE1D9003308C5 /* LaunchScreen.xib */,
 				C4C0EFE71B8BE1D9003308C5 /* Supporting Files */,
@@ -241,6 +244,7 @@
 		C4C0EFDC1B8BE1D9003308C5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Jerry Herrera";
 				TargetAttributes = {
@@ -304,6 +308,7 @@
 				C48B89AB1B94C621006B33B9 /* AWTableViewController.swift in Sources */,
 				C43DCAED1B93FE7300DEC928 /* SignUpViewController.swift in Sources */,
 				C49577B31B8E30BC00B0B926 /* WallViewController.swift in Sources */,
+				C4914D8C1BBF473B0033363F /* AnyWallTableViewCell.swift in Sources */,
 				C4FDD8221B9F8BC000915574 /* ActivityView.swift in Sources */,
 				C43DCAE91B93F69C00DEC928 /* LogInViewController.swift in Sources */,
 				C4C0EFEC1B8BE1D9003308C5 /* ViewController.swift in Sources */,
@@ -434,12 +439,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = "New AnyWall Swift/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -450,12 +456,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = "New AnyWall Swift/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

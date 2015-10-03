@@ -18,9 +18,4 @@ class ActivityView: UIView {
         self.label.textColor = UIColor.whiteColor()
         self.label.backgroundColor = UIColor.clearColor()
     }
-    
-    deinit {
-        println("activity view fucked off")
-    }
-
 }

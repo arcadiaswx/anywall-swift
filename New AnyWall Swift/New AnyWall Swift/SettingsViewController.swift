@@ -22,21 +22,21 @@ class SettingsViewController: UIViewController {
     
     @IBAction func presentLogIn(sender: AnyObject) {
         PFUser.logOut()
-        if let user = PFUser.currentUser() {
-            println("this isnt supposed to print")
+        if let _ = PFUser.currentUser() {
+            print("this isnt supposed to print")
         } else {
-            println("user logged out")
+            print("user logged out")
         }
         self.dismissViewControllerAnimated(false, completion: nil)
         wallControllerAsDelegate?.returnToLogin()
     }
     
     override func viewDidLoad() {
-        println("settings loaded")
+        print("settings loaded")
     }
     
     deinit {
-        println("settings deinited")
+        print("settings deinited")
     }
 
 }

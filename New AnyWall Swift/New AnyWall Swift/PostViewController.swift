@@ -25,8 +25,8 @@ class PostViewController: UIViewController, UITextViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        println("post VC loaded")
-        println("postVC's test string = \(testString)")
+        print("post VC loaded")
+        print("postVC's test string = \(testString)")
         self.maxCharacterCount = 140 //in final version this will draw from ConfigManager
         textView.delegate = self
         self.updateCharacterCountLabel()
@@ -66,21 +66,21 @@ class PostViewController: UIViewController, UITextViewDelegate {
                 postObject.saveInBackgroundWithBlock {
                     (success, error) in
                     if error != nil {
-                        println("error occured")
+                        print("error occured")
                         //alert view
                         return
                     }
                     if success {
-                        println("saved")
+                        print("saved")
                         //send notification - dispatch async
                     } else {
-                        println("failed")
+                        print("failed")
                     }
                 }
                 
                 
             } else {
-                println("no location, not posting")
+                print("no location, not posting")
                 return
             }
         }
@@ -100,7 +100,7 @@ class PostViewController: UIViewController, UITextViewDelegate {
     }
     
     func updateCharacterCountLabel() {
-        let charCount = count(self.textView.text) //really count is textView.text.length
+        let charCount = self.textView.text.length //really count is textView.text.length
         self.characterCountLabel.text = "\(charCount)/\(self.maxCharacterCount)"
         if charCount > maxCharacterCount || charCount == 0 {
             characterCountLabel.font = UIFont.boldSystemFontOfSize(characterCountLabel.font.pointSize)
@@ -122,7 +122,7 @@ class PostViewController: UIViewController, UITextViewDelegate {
     
     func checkCharacterCount() -> Bool {
         var enabled = false
-        let charCount = count(self.textView.text)
+        let charCount = self.textView.text.length
         if charCount > 0 && charCount < self.maxCharacterCount {
             enabled = true
         }
@@ -132,6 +132,6 @@ class PostViewController: UIViewController, UITextViewDelegate {
 
     
     deinit {
-        println("post VC deinited")
+        print("post VC deinited")
     }
 }
